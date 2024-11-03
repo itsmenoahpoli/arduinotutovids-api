@@ -1,0 +1,18 @@
+Must be installed:
+XAMPP (latest)
+Visual Studio Code
+DBeaver or DataGrip or MySQL Workbench
+
+---------------------------------------------------------------------------
+
+Terminal commands to setup the application:
+
+cp .env.example .env
+
+composer install
+
+php artisan key:generate
+
+php artisan migrate --seed
+
+php artisan serve
